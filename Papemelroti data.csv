@@ -1,0 +1,151 @@
+Month,Store,Item Code,Item Name,Number Stored in Inventory,Number Sold,Cost (PHP),Revenue (PHP)
+Jan,SM Megamall (Mandaluyong),GC-101,Inspiring Quote Greeting Card,320,95,1425,4275
+Jan,SM Megamall (Mandaluyong),NB-205,Eco-Friendly Journal (Small),250,55,3300,9900
+Jan,SM Megamall (Mandaluyong),WD-310,Wooden Desk Organizer,160,28,4200,12600
+Jan,SM Megamall (Mandaluyong),PT-402,Postcard Set (Philippine Scenes),280,78,3120,9360
+Jan,SM Megamall (Mandaluyong),SG-515,Small Globe Souvenir,100,15,3750,11250
+Jan,Glorietta (Makati),GC-101,Inspiring Quote Greeting Card,300,88,1320,3960
+Jan,Glorietta (Makati),NB-205,Eco-Friendly Journal (Small),230,52,3120,9360
+Jan,Glorietta (Makati),WD-310,Wooden Desk Organizer,150,25,3750,11250
+Jan,Glorietta (Makati),PT-402,Postcard Set (Philippine Scenes),260,70,2800,8400
+Jan,Glorietta (Makati),SG-515,Small Globe Souvenir,90,12,3000,9000
+Jan,SM North EDSA (Quezon City),GC-101,Inspiring Quote Greeting Card,350,105,1575,4725
+Jan,SM North EDSA (Quezon City),NB-205,Eco-Friendly Journal (Small),260,60,3600,10800
+Jan,SM North EDSA (Quezon City),WD-310,Wooden Desk Organizer,170,30,4500,13500
+Jan,SM North EDSA (Quezon City),PT-402,Postcard Set (Philippine Scenes),300,85,3400,10200
+Jan,SM North EDSA (Quezon City),SG-515,Small Globe Souvenir,110,18,4500,13500
+Jan,Ayala Center Cebu (Cebu City),GC-101,Inspiring Quote Greeting Card,280,75,1125,3375
+Jan,Ayala Center Cebu (Cebu City),NB-205,Eco-Friendly Journal (Small),200,45,2700,8100
+Jan,Ayala Center Cebu (Cebu City),WD-310,Wooden Desk Organizer,130,22,3300,9900
+Jan,Ayala Center Cebu (Cebu City),PT-402,Postcard Set (Philippine Scenes),240,60,2400,7200
+Jan,Ayala Center Cebu (Cebu City),SG-515,Small Globe Souvenir,80,10,2500,7500
+Jan,Abreeza Mall (Davao City),GC-101,Inspiring Quote Greeting Card,270,72,1080,3240
+Jan,Abreeza Mall (Davao City),NB-205,Eco-Friendly Journal (Small),190,40,2400,7200
+Jan,Abreeza Mall (Davao City),WD-310,Wooden Desk Organizer,120,20,3000,9000
+Jan,Abreeza Mall (Davao City),PT-402,Postcard Set (Philippine Scenes),220,55,2200,6600
+Jan,Abreeza Mall (Davao City),SG-515,Small Globe Souvenir,70,8,2000,6000
+Feb,SM Megamall (Mandaluyong),GC-101,Inspiring Quote Greeting Card,250,70,1050,3150
+Feb,SM Megamall (Mandaluyong),NB-205,Eco-Friendly Journal (Small),200,45,2700,8100
+Feb,SM Megamall (Mandaluyong),WD-310,Wooden Desk Organizer,140,24,3600,10800
+Feb,SM Megamall (Mandaluyong),PT-402,Postcard Set (Philippine Scenes),260,65,2600,7800
+Feb,SM Megamall (Mandaluyong),SG-515,Small Globe Souvenir,90,13,3250,9750
+Feb,Glorietta (Makati),GC-101,Inspiring Quote Greeting Card,240,68,1020,3060
+Feb,Glorietta (Makati),NB-205,Eco-Friendly Journal (Small),180,40,2400,7200
+Feb,Glorietta (Makati),WD-310,Wooden Desk Organizer,130,20,3000,9000
+Feb,Glorietta (Makati),PT-402,Postcard Set (Philippine Scenes),240,60,2400,7200
+Feb,Glorietta (Makati),SG-515,Small Globe Souvenir,80,10,2500,7500
+Feb,SM North EDSA (Quezon City),GC-101,Inspiring Quote Greeting Card,280,80,1200,3600
+Feb,SM North EDSA (Quezon City),NB-205,Eco-Friendly Journal (Small),210,50,3000,9000
+Feb,SM North EDSA (Quezon City),WD-310,Wooden Desk Organizer,150,26,3900,11700
+Feb,SM North EDSA (Quezon City),PT-402,Postcard Set (Philippine Scenes),270,72,2880,8640
+Feb,SM North EDSA (Quezon City),SG-515,Small Globe Souvenir,100,16,4000,12000
+Feb,Ayala Center Cebu (Cebu City),GC-101,Inspiring Quote Greeting Card,220,55,825,2475
+Feb,Ayala Center Cebu (Cebu City),NB-205,Eco-Friendly Journal (Small),160,35,2100,6300
+Feb,Ayala Center Cebu (Cebu City),WD-310,Wooden Desk Organizer,110,18,2700,8100
+Feb,Ayala Center Cebu (Cebu City),PT-402,Postcard Set (Philippine Scenes),200,50,2000,6000
+Feb,Ayala Center Cebu (Cebu City),SG-515,Small Globe Souvenir,70,8,2000,6000
+Feb,Abreeza Mall (Davao City),GC-101,Inspiring Quote Greeting Card,210,50,750,2250
+Feb,Abreeza Mall (Davao City),NB-205,Eco-Friendly Journal (Small),150,30,1800,5400
+Feb,Abreeza Mall (Davao City),WD-310,Wooden Desk Organizer,100,15,2250,6750
+Feb,Abreeza Mall (Davao City),PT-402,Postcard Set (Philippine Scenes),180,42,1680,5040
+Feb,Abreeza Mall (Davao City),SG-515,Small Globe Souvenir,60,6,1500,4500
+Mar,SM Megamall (Mandaluyong),GC-101,Inspiring Quote Greeting Card,200,90,1350,4050
+Mar,SM Megamall (Mandaluyong),NB-205,Eco-Friendly Journal (Small),155,50,3000,9000
+Mar,SM Megamall (Mandaluyong),WD-310,Wooden Desk Organizer,116,27,4050,12150
+Mar,SM Megamall (Mandaluyong),PT-402,Postcard Set (Philippine Scenes),220,75,3000,9000
+Mar,SM Megamall (Mandaluyong),SG-515,Small Globe Souvenir,77,16,4000,12000
+Mar,Glorietta (Makati),GC-101,Inspiring Quote Greeting Card,190,82,1230,3690
+Mar,Glorietta (Makati),NB-205,Eco-Friendly Journal (Small),140,48,2880,8640
+Mar,Glorietta (Makati),WD-310,Wooden Desk Organizer,110,24,3600,10800
+Mar,Glorietta (Makati),PT-402,Postcard Set (Philippine Scenes),210,68,2720,8160
+Mar,Glorietta (Makati),SG-515,Small Globe Souvenir,70,11,2750,8250
+Mar,SM North EDSA (Quezon City),GC-101,Inspiring Quote Greeting Card,240,98,1470,4410
+Mar,SM North EDSA (Quezon City),NB-205,Eco-Friendly Journal (Small),180,55,3300,9900
+Mar,SM North EDSA (Quezon City),WD-310,Wooden Desk Organizer,130,29,4350,13050
+Mar,SM North EDSA (Quezon City),PT-402,Postcard Set (Philippine Scenes),240,80,3200,9600
+Mar,SM North EDSA (Quezon City),SG-515,Small Globe Souvenir,84,17,4250,12750
+Mar,Ayala Center Cebu (Cebu City),GC-101,Inspiring Quote Greeting Card,170,65,975,2925
+Mar,Ayala Center Cebu (Cebu City),NB-205,Eco-Friendly Journal (Small),125,40,2400,7200
+Mar,Ayala Center Cebu (Cebu City),WD-310,Wooden Desk Organizer,92,20,3000,9000
+Mar,Ayala Center Cebu (Cebu City),PT-402,Postcard Set (Philippine Scenes),180,55,2200,6600
+Mar,Ayala Center Cebu (Cebu City),SG-515,Small Globe Souvenir,62,9,2250,6750
+Mar,Abreeza Mall (Davao City),GC-101,Inspiring Quote Greeting Card,160,60,900,2700
+Mar,Abreeza Mall (Davao City),NB-205,Eco-Friendly Journal (Small),110,35,2100,6300
+Mar,Abreeza Mall (Davao City),WD-310,Wooden Desk Organizer,85,17,2550,7650
+Mar,Abreeza Mall (Davao City),PT-402,Postcard Set (Philippine Scenes),160,48,1920,5760
+Mar,Abreeza Mall (Davao City),SG-515,Small Globe Souvenir,54,7,1750,5250
+Apr,SM Megamall (Mandaluyong),GC-101,Inspiring Quote Greeting Card,350,110,1650,4950
+Apr,SM Megamall (Mandaluyong),NB-205,Eco-Friendly Journal (Small),280,62,3720,11160
+Apr,SM Megamall (Mandaluyong),WD-310,Wooden Desk Organizer,180,33,4950,14850
+Apr,SM Megamall (Mandaluyong),PT-402,Postcard Set (Philippine Scenes),300,85,3400,10200
+Apr,SM Megamall (Mandaluyong),SG-515,Small Globe Souvenir,120,20,5000,15000
+Apr,Glorietta (Makati),GC-101,Inspiring Quote Greeting Card,330,100,1500,4500
+Apr,Glorietta (Makati),NB-205,Eco-Friendly Journal (Small),260,58,3480,10440
+Apr,Glorietta (Makati),WD-310,Wooden Desk Organizer,170,30,4500,13500
+Apr,Glorietta (Makati),PT-402,Postcard Set (Philippine Scenes),280,78,3120,9360
+Apr,Glorietta (Makati),SG-515,Small Globe Souvenir,110,18,4500,13500
+Apr,SM North EDSA (Quezon City),GC-101,Inspiring Quote Greeting Card,370,120,1800,5400
+Apr,SM North EDSA (Quezon City),NB-205,Eco-Friendly Journal (Small),290,68,4080,12240
+Apr,SM North EDSA (Quezon City),WD-310,Wooden Desk Organizer,190,35,5250,15750
+Apr,SM North EDSA (Quezon City),PT-402,Postcard Set (Philippine Scenes),320,95,3800,11400
+Apr,SM North EDSA (Quezon City),SG-515,Small Globe Souvenir,130,22,5500,16500
+Apr,Ayala Center Cebu (Cebu City),GC-101,Inspiring Quote Greeting Card,300,90,1350,4050
+Apr,Ayala Center Cebu (Cebu City),NB-205,Eco-Friendly Journal (Small),230,50,3000,9000
+Apr,Ayala Center Cebu (Cebu City),WD-310,Wooden Desk Organizer,150,26,3900,11700
+Apr,Ayala Center Cebu (Cebu City),PT-402,Postcard Set (Philippine Scenes),260,70,2800,8400
+Apr,Ayala Center Cebu (Cebu City),SG-515,Small Globe Souvenir,100,15,3750,11250
+Apr,Abreeza Mall (Davao City),GC-101,Inspiring Quote Greeting Card,290,85,1275,3825
+Apr,Abreeza Mall (Davao City),NB-205,Eco-Friendly Journal (Small),220,48,2880,8640
+Apr,Abreeza Mall (Davao City),WD-310,Wooden Desk Organizer,140,24,3600,10800
+Apr,Abreeza Mall (Davao City),PT-402,Postcard Set (Philippine Scenes),240,65,2600,7800
+Apr,Abreeza Mall (Davao City),SG-515,Small Globe Souvenir,90,13,3250,9750
+May,SM Megamall (Mandaluyong),GC-101,Inspiring Quote Greeting Card,240,85,1275,3825
+May,SM Megamall (Mandaluyong),NB-205,Eco-Friendly Journal (Small),218,48,2880,8640
+May,SM Megamall (Mandaluyong),WD-310,Wooden Desk Organizer,147,25,3750,11250
+May,SM Megamall (Mandaluyong),PT-402,Postcard Set (Philippine Scenes),215,68,2720,8160
+May,SM Megamall (Mandaluyong),SG-515,Small Globe Souvenir,100,16,4000,12000
+May,Glorietta (Makati),GC-101,Inspiring Quote Greeting Card,230,80,1200,3600
+May,Glorietta (Makati),NB-205,Eco-Friendly Journal (Small),202,45,2700,8100
+May,Glorietta (Makati),WD-310,Wooden Desk Organizer,140,22,3300,9900
+May,Glorietta (Makati),PT-402,Postcard Set (Philippine Scenes),202,62,2480,7440
+May,Glorietta (Makati),SG-515,Small Globe Souvenir,92,14,3500,10500
+May,SM North EDSA (Quezon City),GC-101,Inspiring Quote Greeting Card,250,90,1350,4050
+May,SM North EDSA (Quezon City),NB-205,Eco-Friendly Journal (Small),222,52,3120,9360
+May,SM North EDSA (Quezon City),WD-310,Wooden Desk Organizer,155,28,4200,12600
+May,SM North EDSA (Quezon City),PT-402,Postcard Set (Philippine Scenes),225,75,3000,9000
+May,SM North EDSA (Quezon City),SG-515,Small Globe Souvenir,108,18,4500,13500
+May,Ayala Center Cebu (Cebu City),GC-101,Inspiring Quote Greeting Card,210,72,1080,3240
+May,Ayala Center Cebu (Cebu City),NB-205,Eco-Friendly Journal (Small),180,42,2520,7560
+May,Ayala Center Cebu (Cebu City),WD-310,Wooden Desk Organizer,130,20,3000,9000
+May,Ayala Center Cebu (Cebu City),PT-402,Postcard Set (Philippine Scenes),180,55,2200,6600
+May,Ayala Center Cebu (Cebu City),SG-515,Small Globe Souvenir,85,12,3000,9000
+May,Abreeza Mall (Davao City),GC-101,Inspiring Quote Greeting Card,205,65,975,2925
+May,Abreeza Mall (Davao City),NB-205,Eco-Friendly Journal (Small),172,38,2280,6840
+May,Abreeza Mall (Davao City),WD-310,Wooden Desk Organizer,120,18,2700,8100
+May,Abreeza Mall (Davao City),PT-402,Postcard Set (Philippine Scenes),175,50,2000,6000
+May,Abreeza Mall (Davao City),SG-515,Small Globe Souvenir,80,10,2500,7500
+Jun,SM Megamall (Mandaluyong),GC-101,Inspiring Quote Greeting Card,300,98,1470,4410
+Jun,SM Megamall (Mandaluyong),NB-205,Eco-Friendly Journal (Small),250,55,3300,9900
+Jun,SM Megamall (Mandaluyong),WD-310,Wooden Desk Organizer,160,30,4500,13500
+Jun,SM Megamall (Mandaluyong),PT-402,Postcard Set (Philippine Scenes),270,80,3200,9600
+Jun,SM Megamall (Mandaluyong),SG-515,Small Globe Souvenir,110,18,4500,13500
+Jun,Glorietta (Makati),GC-101,Inspiring Quote Greeting Card,280,90,1350,4050
+Jun,Glorietta (Makati),NB-205,Eco-Friendly Journal (Small),230,50,3000,9000
+Jun,Glorietta (Makati),WD-310,Wooden Desk Organizer,150,25,3750,11250
+Jun,Glorietta (Makati),PT-402,Postcard Set (Philippine Scenes),250,72,2880,8640
+Jun,Glorietta (Makati),SG-515,Small Globe Souvenir,100,15,3750,11250
+Jun,SM North EDSA (Quezon City),GC-101,Inspiring Quote Greeting Card,320,105,1575,4725
+Jun,SM North EDSA (Quezon City),NB-205,Eco-Friendly Journal (Small),260,60,3600,10800
+Jun,SM North EDSA (Quezon City),WD-310,Wooden Desk Organizer,170,32,4800,14400
+Jun,SM North EDSA (Quezon City),PT-402,Postcard Set (Philippine Scenes),290,88,3520,10560
+Jun,SM North EDSA (Quezon City),SG-515,Small Globe Souvenir,120,20,5000,15000
+Jun,Ayala Center Cebu (Cebu City),GC-101,Inspiring Quote Greeting Card,260,80,1200,3600
+Jun,Ayala Center Cebu (Cebu City),NB-205,Eco-Friendly Journal (Small),210,48,2880,8640
+Jun,Ayala Center Cebu (Cebu City),WD-310,Wooden Desk Organizer,140,24,3600,10800
+Jun,Ayala Center Cebu (Cebu City),PT-402,Postcard Set (Philippine Scenes),240,65,2600,7800
+Jun,Ayala Center Cebu (Cebu City),SG-515,Small Globe Souvenir,95,14,3500,10500
+Jun,Abreeza Mall (Davao City),GC-101,Inspiring Quote Greeting Card,250,75,1125,3375
+Jun,Abreeza Mall (Davao City),NB-205,Eco-Friendly Journal (Small),200,45,2700,8100
+Jun,Abreeza Mall (Davao City),WD-310,Wooden Desk Organizer,130,22,3300,9900
+Jun,Abreeza Mall (Davao City),PT-402,Postcard Set (Philippine Scenes),220,60,2400,7200
+Jun,Abreeza Mall (Davao City),SG-515,Small Globe Souvenir,90,12,3000,9000
