@@ -23,35 +23,6 @@ This repository contains an **interactive Shiny dashboard** that demonstrates a 
 | **Profit Margin** | 66.67% | 66.67% | ✓ Maintained |
 
 ---
-
-## 🚀 Quick Start
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-org/papemelroti-inventory-optimization.git
-   cd papemelroti-inventory-optimization
-   ```
-
-2. **Install R dependencies:**
-   ```r
-   # Open R console and run:
-   packages <- c("shiny", "shinydashboard", "DiagrammeR", "dplyr", 
-                 "tidyr", "ggplot2", "zoo", "visNetwork", "scales", 
-                 "shinyalert", "DT")
-   install.packages(packages)
-   ```
-
-3. **Run the application:**
-   ```r
-   shiny::runApp("shinyapp_final.R")
-   ```
-
-   The dashboard will open at `http://localhost:3838/`
-
----
-
 ### How to Use the Dashboard
 
 Follow these simple steps to explore your inventory data:
@@ -95,6 +66,35 @@ Once your data is loaded, you can explore any section using the left sidebar men
 - **View Data:** Start at the **"📊 Data Analysis"** tab to inspect your raw data
 - **Understand Method:** Visit **"🔧 Methodology"** to learn how the system works
 - **See Impact:** Check **"🎯 Key Results"** for the most important findings
+
+## 🚀 Quick Start
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-org/papemelroti-inventory-optimization.git
+   cd papemelroti-inventory-optimization
+   ```
+
+2. **Install R dependencies:**
+   ```r
+   # Open R console and run:
+   packages <- c("shiny", "shinydashboard", "DiagrammeR", "dplyr", 
+                 "tidyr", "ggplot2", "zoo", "visNetwork", "scales", 
+                 "shinyalert", "DT")
+   install.packages(packages)
+   ```
+
+3. **Run the application:**
+   ```r
+   shiny::runApp("shinyapp_final.R")
+   ```
+
+   The dashboard will open at `http://localhost:3838/`
+
+---
+
 
 ---
 
