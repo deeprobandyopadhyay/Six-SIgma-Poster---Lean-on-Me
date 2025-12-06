@@ -323,21 +323,6 @@ The dashboard includes an intelligent chatbot that answers common questions:
 ✅ Financial Impact Analysis  
 ✅ Final Presentation & Report  
 
----
-
-## 🔍 File Structure
-
-```
-papemelroti-inventory-optimization/
-├── shinyapp_final.R          # Main Shiny application
-├── README.md                 # This file
-├── sample_data.csv           # Example input CSV
-├── LICENSE                   # MIT License
-└── docs/
-    ├── METHODOLOGY.md        # Detailed methodology explanation
-    ├── DATA_DICTIONARY.md    # Input data specifications
-    └── TROUBLESHOOTING.md    # Common issues & solutions
-```
 
 ---
 
