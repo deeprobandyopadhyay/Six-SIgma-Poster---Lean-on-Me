@@ -212,8 +212,152 @@ Data cleaning utility:
 - Filters for finite values only
 - Removes invalid rows
 
+## 📚 Term Bank & Key Formulas
+
+### Core Concepts
+
+#### **Inventory Turnover (IT) Rate**
+**Definition:** The number of times inventory is sold and replaced over a period. Higher turnover indicates efficient inventory management.
+
+**Formula:**
+```
+IT = Total Units Sold / Average Inventory Level
+```
+
+**Example:**
+- Total units sold in 6 months: 3,923 units
+- Average inventory held: 1,500 units
+- IT = 3,923 / 1,500 = 2.62 (Baseline)
+
+**Why It Matters for Our Project:**
+- Our baseline IT of 2.62 means inventory sits for an average of 139 days before being sold
+- Target IT of 4.00 reduces holding period to 91 days (34.5% improvement)
+- Higher IT directly reduces carrying costs by 34.5% (₱6,030 annual savings)
+- Improves cash flow and capital efficiency
+
 ---
 
+#### **Weighted Moving Average (WMA) Forecasting**
+**Definition:** A forecasting method that assigns higher weights to more recent data points, making it responsive to demand changes while smoothing out noise.
+
+**Formula:**
+```
+WMA_t = (w₁ × D_{t-1}) + (w₂ × D_{t-2}) + (w₃ × D_{t-3})
+
+Where:
+- t = current time period
+- D = actual demand (units sold)
+- w = weight assigned to each period (sum = 1.0)
+```
+
+**Our Project's Weighting Scheme:**
+```
+WMA = (0.60 × D_recent) + (0.30 × D_previous) + (0.10 × D_two_months_ago)
+```
+
+**Example Calculation:**
+- Month -1 (most recent): 670 units sold
+- Month -2 (previous): 660 units sold
+- Month -3 (two months ago): 650 units sold
+
+```
+WMA = (0.60 × 670) + (0.30 × 660) + (0.10 × 650)
+WMA = 402 + 198 + 65
+WMA = 665 units (forecasted demand for next month)
+```
+
+**Why It Matters for Our Project:**
+- Captures recent demand trends (60% weight) while maintaining stability
+- 5% more responsive than simple moving average for retail environments
+- Enables predictive procurement instead of reactive ordering
+- Reduces both overstocking (excess costs) and understocking (lost sales)
+- Root cause analysis showed "no forecasting system" was primary problem—WMA solves this
+- Generates ₱6,030 annual savings through better inventory alignment
+
+---
+
+#### **Inventory Turnover Optimization (ITO) Framework**
+**Definition:** A systematic approach that links demand forecasts to inventory targets, ensuring procurement decisions maintain a specific efficiency goal (IT rate).
+
+**Formula:**
+```
+Target Average Inventory = WMA Forecasted Demand / Target IT Rate
+
+Reorder Point = Target Average Inventory - Current Inventory Level
+
+Optimal Order Quantity = Reorder Point + Safety Stock
+```
+
+**Example in Our Project:**
+```
+Step 1: Forecast demand using WMA
+WMA_forecast = 665 units/month
+
+Step 2: Calculate target inventory
+Target_Inventory = 665 / 4.00 = 166.25 units
+
+Step 3: Set reorder point
+Current_Inventory = 150 units
+Reorder Point = 166.25 - 150 = 16.25 units
+
+Step 4: Place order when inventory drops to reorder point
+→ Maintains IT = 4.00 automatically
+```
+
+**Why It Matters for Our Project:**
+- **Automatable:** Every reorder decision follows the same logic (formula-based, not guesswork)
+- **Aligned to Target:** Ensures all procurement decisions drive toward IT = 4.00 goal
+- **Capital Efficient:** Reduces average inventory from ₱87,389 to ₱57,240 (₱30,149 released)
+- **Eliminates Variation:** Reduces process variation by 52.7%
+- **Scalable:** Same framework works across all 21 stores and 121 SKUs
+- **Six Sigma Principle:** Achieves efficiency gains through process improvement, not resource addition
+
+---
+
+### Relationship Between WMA, ITO, and Project Success
+
+```
+WMA (Demand Forecasting)
+        ↓
+    More accurate predictions
+        ↓
+ITO (Optimization Framework)
+        ↓
+    Optimal reorder points
+        ↓
+    ✅ IT Rate: 2.62 → 4.00
+    ✅ Holding Period: 139d → 91d
+    ✅ Annual Savings: ₱6,030
+    ✅ Sales Growth: +5%
+    ✅ Capital Released: ₱30,149
+```
+
+---
+
+### Key Performance Indicators (KPIs)
+
+| KPI | Formula | Baseline | Target | Status |
+|-----|---------|----------|--------|--------|
+| **Inventory Turnover Rate** | Total Sold / Avg Inventory | 2.62 | 4.00 | ⚠️ In Progress |
+| **Holding Period (Days)** | 365 / IT Rate | 139 | 91 | ⚠️ In Progress |
+| **Annual Holding Cost** | (Avg Inventory × Annual COGS Rate) × 0.20 | ₱17,478 | ₱11,448 | ⚠️ In Progress |
+| **Sales Growth Rate** | (Forecast - Actual) / Actual | — | +5% | ✅ Projected |
+| **Gross Profit Margin** | (Revenue - Cost) / Revenue | 66.67% | 66.67% | ✅ Maintained |
+| **Capital Efficiency** | Current Inventory - Target Inventory | — | ₱30,149 | ✅ Achieved |
+
+---
+
+### Statistical Validation Terms
+
+**Bootstrap Simulation:** A resampling technique used to estimate confidence intervals. We used n=10,000 simulations to validate our results with 95% confidence.
+
+**95% Confidence Interval:** The range where we're 95% confident the true value lies. Example: Annual savings of ₱6,030 with CI [₱4,258, ₱7,802] means we're 95% confident the true savings falls within this range.
+
+**Five Whys Analysis:** A root cause investigation technique asking "Why?" five times to identify the fundamental cause rather than symptoms.
+
+**Fault Tree Analysis:** A hierarchical diagram showing how multiple failures cascade upward to create business risk.
+
+---
 ## 📈 Methodology
 
 ### Weighted Moving Average (WMA)
